@@ -20,6 +20,7 @@ const FormTemplate = ({ datas }) => {
         lastName: lnameInp.value,
         phoneNumber: phoneInp.value,
         id: idInp.value,
+        role: "student",
       }),
     }).then((res) => res && setIsData(!isData));
   };
@@ -39,6 +40,7 @@ const FormTemplate = ({ datas }) => {
         lastName: lnameInp.value,
         phoneNumber: phoneInp.value,
         id: idInp.value,
+        role: "teacher",
       }),
     }).then((res) => res && setIsData(!isData));
   };
