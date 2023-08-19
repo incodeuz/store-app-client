@@ -4,7 +4,6 @@ import Generic from "../components/Generic";
 import Students from "../pages/Students";
 import Dashboard from "../pages/Dashboard";
 import Teachers from "../pages/Teachers";
-import Test from "../pages/Test";
 
 export const sidebarRoutes = [
   {
@@ -31,7 +30,7 @@ export const sidebarRoutes = [
   {
     title: "Contacts",
     to: "contacts",
-    Element: Test,
+    Element: Generic,
     path: "contacts",
     icon: "bx bx-home",
   },
