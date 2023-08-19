@@ -3,6 +3,8 @@ import About from "../pages/About";
 import Generic from "../components/Generic";
 import Students from "../pages/Students";
 import Dashboard from "../pages/Dashboard";
+import Teachers from "../pages/Teachers";
+import Test from "../pages/Test";
 
 export const sidebarRoutes = [
   {
@@ -22,14 +24,14 @@ export const sidebarRoutes = [
   {
     title: "Teachers",
     to: "teachers",
-    Element: Generic,
+    Element: Teachers,
     path: "teachers",
     icon: "bx bx-home",
   },
   {
     title: "Contacts",
     to: "contacts",
-    Element: Generic,
+    Element: Test,
     path: "contacts",
     icon: "bx bx-home",
   },
